@@ -7,7 +7,7 @@ public class Product {
 
     //Constructor
     public Product(double productCost, String productName, int productQuantity) {
-        this.productCost = productCost;
+        this.productCost = productCost; // this. distinguishes btw class attributes and constrictors parameters
         this.productName = productName;
         this.productQuantity = productQuantity;
     }
